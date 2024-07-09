@@ -18,8 +18,8 @@ public class ControleAluno {
         try {
             String servername = "localhost:3306";
             String user = "root";
-            String password = "";
-            String database = "bdaluno_nota";
+            String password = "12345678";
+            String database = "bdaluno";
             String driverName = "com.mysql.cj.jdbc.Driver";
             Class.forName(driverName);
 
